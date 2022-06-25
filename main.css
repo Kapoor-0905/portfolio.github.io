@@ -125,7 +125,7 @@ body {
 
 .sec .lang {
     height: 25px;
-    width: 300px;
+    width: max-content;
     background: rgb(116, 218, 85);
     color: rgb(0, 0, 0);
     border-radius: 5px;
@@ -256,7 +256,7 @@ body {
     width: 80px;
     height: 35px;
     margin-top: -55%;
-    margin-right: -15%;
+    margin-right: -8%;
     border-radius: 5px 5px 80% 80%;
     transition: width 2s, height 2s, transform 2s;
     color: rgb(236, 159, 14);
