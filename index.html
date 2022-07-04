@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ashutosh Kapoor</title>
     <link rel="stylesheet" type="text/css" href="main.css">
@@ -17,6 +17,13 @@
     <link href='https://fonts.googleapis.com/css?family=Sirin Stencil' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Graduate' rel='stylesheet'>
 </head>
+    <script>
+    const resizeOps = () => {
+    document.documentElement.style.setProperty("--vh", window.innerHeight * 0.01 + "px");
+  };
+
+  resizeOps();
+  window.addEventListener("resize", resizeOps);</script>
 
 <body>
 
