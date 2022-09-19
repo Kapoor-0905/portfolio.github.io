@@ -287,7 +287,12 @@ body {
     display: none;
 }
 
-.exp {
+.ach {
+    display: none;
+}
+
+.exp,
+.ach {
     width: 750px;
     max-height: 450px;
     z-index: 10;
@@ -300,11 +305,13 @@ body {
     overflow-y: auto;
 }
 
-.exp h3 {
+.exp h3,
+.ach h3 {
     font-family: 'Blanka';
 }
 
-.expnext {
+.expnext,
+.achnext {
     float: right;
     font-family: 'Blanka';
     font-size: 14px;
@@ -320,17 +327,20 @@ body {
     border: none;
 }
 
-.expnext:hover {
+.expnext:hover,
+.achnext:hover {
     cursor: pointer;
 }
 
-.exp h2 {
+.exp h2,
+.ach h2 {
     margin-left: 6%;
     font-family: 'Jim Nightshade';
     font-size: 40px;
 }
 
-.exp p {
+.exp p,
+.ach p {
     font-size: 16px;
 }
 
